@@ -6,6 +6,11 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./component-producto.component.css']
 })
 export class ComponentProductoComponent {
- @Input() title = '';
+ @Input() codigo = '';
+ @Input() nombre='';
+ @Input() descripcion='';
+ @Input() precio='';
+ @Input() stock='';
+ @Input() imagen='';
 }
 
